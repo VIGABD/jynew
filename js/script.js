@@ -3,13 +3,7 @@
 	"use strict";
 	
 	
-	//Hide Loading Box (Preloader)
-	function handlePreloader() {
-		if($('.preloader').length){
-			$('.preloader').delay(200).fadeOut(500);
-		}
-	}
-	
+
 	
 	
 	//Update Header Style and Scroll to Top
@@ -600,10 +594,7 @@
 	}
 	
 	
-	//Hide Loading Box (Preloader)
-	if($('.trailer-section .default-tab-box .tab-btns').length){
-		$('.trailer-section .default-tab-box .tab-btns').mCustomScrollbar();
-	}
+
 	
 	//Typeit Text On Main Page
 	if ($('.variable-text').length) {
@@ -833,8 +824,5 @@
    When document is loading, do
    ========================================================================== */
 	
-	$(window).on('load', function() {
-		handlePreloader();
-	});	
 
 })(window.jQuery);
